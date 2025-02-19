@@ -1,0 +1,9 @@
+name: practica7.1
+
+services:
+ node-practica71:
+  image: node:23-slim
+  container_name: node-practica71
+  ports:
+    - "8080:8080"
+  tty: true
